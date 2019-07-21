@@ -111,7 +111,8 @@ tabspaces: 8
 # Font configuration (changes require restart)
 font:
   # Normal (roman) font face
-  #normal:
+  normal:
+    family: M+ 1m medium
     # Font family
     #
     # Default:
@@ -146,7 +147,7 @@ font:
     #style: Italic
 
   # Point size
-  size: 11.0
+  size: 15.0
 
   # Offset is the extra space around each character. `offset.y` can be thought of
   # as modifying the line spacing, and `offset.x` as modifying the letter spacing.
@@ -433,7 +434,7 @@ mouse:
     #
     # These are the modifiers that need to be held down for opening URLs when clicking
     # on them. The available modifiers are documented in the key binding section.
-    modifiers: None
+    modifiers: open
 
 # Mouse bindings
 #
